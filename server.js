@@ -27,7 +27,8 @@ app.use(function (req, res, next) {
 const mockEvents = {
     events: [
         { title: 'an event', id: 1, description: 'something really cool' },
-        { title: 'another event', id: 2, description: 'something even cooler' }
+        { title: 'another event', id: 2, description: 'something even cooler' },
+        { title: 'another event from feature branch', id: 3, description: 'new branch thing' }
     ]
 };
 
